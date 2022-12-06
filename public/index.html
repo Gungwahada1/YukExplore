@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | YukExplore</title>
+
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <!-- Link Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-Nunito font-normal text-base relative">
+    <!-- Header -->
+    <header class="relative z-10">
+      <div class="relative container mx-auto w-screen">
+        <div
+          class="mx-3 lg:mx-8 py-3 border-b-2 border-30% flex justify-between items-center pt-8"
+        >
+          <div class="flex justify-center items-center">
+            <img
+              src="/assets/logo.svg"
+              alt="Logo YukExplore"
+              width="60px"
+              height="60px"
+              class="w-10 h-10"
+            />
+          </div>
+          <div class="hidden lg:flex lg:justify-center lg:items-center">
+            <ul class="flex justify-center items-center space-x-10">
+              <li><a href="#" class="">HOME</a></li>
+              <li><a href="#" class="">GALLERY</a></li>
+              <li><a href="#" class="">ABOUT US</a></li>
+              <li><a href="#" class="">CONTACT</a></li>
+            </ul>
+          </div>
+          <div
+            class="hidden lg:flex lg:justify-center lg:items-center text-10% space-x-3"
+          >
+            <a href="#" class="py-3 px-8 border-2 border-30% rounded-xl"
+              >REGISTER</a
+            >
+            <a href="#" class="py-3 px-8 bg-30% rounded-xl">LOGIN</a>
+          </div>
+          <div
+            class="flex justify-center items-center dark:bg-10% rounded-md lg:hidden"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-8 h-8"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Menu Mobile -->
+    <div
+      class="container mx-3 lg:hidden my-3 w-1/2 md:max-w-xs bg-30% absolute right-0 z-50"
+    >
+      <ul class="text-end space-y-5 pr-5 py-5 text-10%">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">GALLERY</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">REGISTER</a></li>
+        <li><a href="#">LOGIN</a></li>
+      </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="absolute z-10">
+      <div class="container mx-auto">
+        <div class="mx-3 lg:mx-8 py-3">
+          <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="my-auto">
+              <h3>HI! KAWAN EXPLORER,</h3>
+              <h1>YUK EXPLORE</h1>
+              <h3>BALI HARI INI.</h3>
+              <p>
+                Bali ialah salah satu pulau yang berada di wilayah Negara
+                Indonesia, pulau ini merupakan pulau yang banyak didatangi para
+                wisatawan lokal maupun lokal karena daya tarik pariwisatanya
+                yang sangat menggugah selera untuk melihatnya secara langsung.
+              </p>
+            </div>
+            <div class="my-auto mx-auto">
+              <img src="/assets/heroHome.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <img
+      src="/assets/bannerHome.png"
+      alt=""
+      class="absolute inset-y-0 right-0 z-0"
+    />
+  </body>
+</html>
