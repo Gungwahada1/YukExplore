@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register | YukExplore</title>
+
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <!-- Link Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="h-auto w-screen container mx-auto bg-[url('/assets/bannerRegister.png')] bg-cover bg-center lg:bg-bottom"
+    >
+      <header class="mx-3 lg:mx-8 py-3">
+        <div class="flex justify-between items-center">
+          <div class="p-3 bg-30% rounded-full w-fit">
+            <a href="/public/index.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 text-10%"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </a>
+          </div>
+          <div>
+            <a
+              href="/public/login.html"
+              class="py-3 px-8 bg-30% rounded-xl text-10% font-bold"
+              >LOGIN</a
+            >
+          </div>
+        </div>
+      </header>
+      <section class="mx-3 lg:mx-8 py-3 pt-10 pb-10">
+        <div class="flex justify-center items-center">
+          <div
+            class="px-10 md:px-20 py-8 rounded-xl bg-[#fff] bg-opacity-20 backdrop-blur-lg drop-shadow-md"
+          >
+            <h3
+              class="text-center font-bold text-10% text-2xl font-Poppins mb-5"
+            >
+              REGISTER
+            </h3>
+            <div class="font-Poppins">
+              <form action="" class="mx-auto">
+                <div class="">
+                  <div class="flex justify-center items-center py-2">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="flex justify-center items-center md:w-80">
+                    <input
+                      type="text"
+                      id="name"
+                      class="w-full h-10 rounded-full p-4 text-center"
+                    />
+                  </div>
+                  <div class="flex justify-center items-center py-2">
+                    <label for="username">Username</label>
+                  </div>
+                  <div class="flex justify-center items-center">
+                    <input
+                      type="text"
+                      id="username"
+                      class="w-full h-10 rounded-full p-4 text-center"
+                    />
+                  </div>
+                  <div class="flex justify-center items-center py-2">
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="flex justify-center items-center">
+                    <input
+                      type="email"
+                      id="email"
+                      class="w-full h-10 rounded-full p-4 text-center"
+                    />
+                  </div>
+                  <div class="flex justify-center items-center py-2">
+                    <label for="password">Password</label>
+                  </div>
+                  <div class="flex justify-center items-center">
+                    <input
+                      type="password"
+                      id="password"
+                      class="w-full h-10 rounded-full p-4 text-center"
+                    />
+                  </div>
+                  <div class="flex justify-center items-center py-2">
+                    <label for="cpassword">Confirm Password</label>
+                  </div>
+                  <div class="flex justify-center items-center">
+                    <input
+                      type="password"
+                      id="cpassword"
+                      class="w-full h-10 rounded-full p-4 text-center"
+                    />
+                  </div>
+                  <a
+                    href="#"
+                    class="flex justify-center items-center bg-30% rounded-full text-10% my-5 p-3"
+                    >Submit</a
+                  >
+                </div>
+              </form>
+            </div>
+            <div>
+              <p class="flex justify-center text-sm">Register dengan</p>
+              <div class="flex justify-center items-center mt-3 space-x-7">
+                <div>
+                  <a href="#">
+                    <img src="/assets/twitter.png" alt="Twitter" width="40px" />
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    <img src="/assets/google.png" alt="Google" width="40px" />
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    <img
+                      src="/assets/facebook.png"
+                      alt="Facebook"
+                      width="40px"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
