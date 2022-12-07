@@ -35,19 +35,47 @@
           </div>
           <div class="hidden lg:flex lg:justify-center lg:items-center">
             <ul class="flex justify-center items-center space-x-10">
-              <li><a href="#" class="">HOME</a></li>
-              <li><a href="#" class="">GALLERY</a></li>
-              <li><a href="#" class="">ABOUT US</a></li>
-              <li><a href="#" class="">CONTACT</a></li>
+              <li>
+                <a
+                  href="/public/index.html"
+                  class="border-b-2 border-30% font-bold"
+                  >HOME</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/public/gallery.html"
+                  class="hover:border-b-2 hover:border-30% transition ease-in-out duration-150"
+                  >GALLERY</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/public/about.html"
+                  class="hover:border-b-2 hover:border-30% transition ease-in-out duration-150"
+                  >ABOUT US</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/public/contact.html"
+                  class="hover:border-b-2 hover:border-30% transition ease-in-out duration-150"
+                  >CONTACT</a
+                >
+              </li>
             </ul>
           </div>
           <div
-            class="hidden lg:flex lg:justify-center lg:items-center text-10% space-x-3"
+            class="hidden lg:flex lg:justify-center lg:items-center text-10% space-x-3 font-bold"
           >
-            <a href="#" class="py-3 px-8 border-2 border-30% rounded-xl"
+            <a
+              href="/public/register.html"
+              class="py-3 px-8 border-2 border-30% rounded-xl xl:text-[#000]"
               >REGISTER</a
             >
-            <a href="#" class="py-3 px-8 bg-30% rounded-xl">LOGIN</a>
+            <a href="/public/login.html" class="py-3 px-8 bg-30% rounded-xl"
+              >LOGIN</a
+            >
           </div>
           <div
             class="flex justify-center items-center dark:bg-10% rounded-md lg:hidden"
@@ -74,36 +102,89 @@
 
     <!-- Menu Mobile -->
     <div
-      class="container mx-3 lg:hidden my-3 w-1/2 md:max-w-xs bg-30% absolute right-0 z-50"
+      class="container mx-3 lg:hidden my-3 w-1/2 md:max-w-xs bg-30% absolute right-0 z-50 hidden"
     >
       <ul class="text-end space-y-5 pr-5 py-5 text-10%">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">GALLERY</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">CONTACT</a></li>
-        <li><a href="#">REGISTER</a></li>
-        <li><a href="#">LOGIN</a></li>
+        <li><a href="/public/index.html">HOME</a></li>
+        <li><a href="/public/gallery.html">GALLERY</a></li>
+        <li><a href="/public/about.html">ABOUT US</a></li>
+        <li><a href="/public/contact.html">CONTACT</a></li>
+        <li><a href="/public/register.html">REGISTER</a></li>
+        <li><a href="/public/login.html">LOGIN</a></li>
       </ul>
     </div>
+    <!-- End Menu Mobile -->
 
     <!-- Hero Section -->
-    <section class="absolute z-10">
+    <section class="absolute z-10 mx-auto w-screen">
       <div class="container mx-auto">
         <div class="mx-3 lg:mx-8 py-3">
-          <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="my-auto">
-              <h3>HI! KAWAN EXPLORER,</h3>
-              <h1>YUK EXPLORE</h1>
-              <h3>BALI HARI INI.</h3>
-              <p>
-                Bali ialah salah satu pulau yang berada di wilayah Negara
-                Indonesia, pulau ini merupakan pulau yang banyak didatangi para
-                wisatawan lokal maupun lokal karena daya tarik pariwisatanya
-                yang sangat menggugah selera untuk melihatnya secara langsung.
-              </p>
-            </div>
-            <div class="my-auto mx-auto">
-              <img src="/assets/heroHome.png" alt="" />
+          <div class="py-5 md:py-10">
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-0 text-10% md:text-[#000]"
+            >
+              <div class="my-auto">
+                <h3
+                  class="font-bold text-2xl lg:text-3xl xl:text-5xl pb-3 xl:pb-5 font-Poppins"
+                >
+                  HI! KAWAN EXPLORER,
+                </h3>
+                <h1
+                  class="text-4xl lg:text-5xl xl:text-7xl font-bold py-2 xl:py-4 px-4 md:px-4 bg-30% font-Poppins w-fit text-10%"
+                >
+                  YUK EXPLORE
+                </h1>
+                <h3
+                  class="font-bold text-2xl lg:text-3xl xl:text-5xl pt-3 xl:pt-5 pb-1 font-Poppins"
+                >
+                  BALI HARI INI.
+                </h3>
+                <p class="text-base xl:text-xl xl:pt-5 md:max-w-xs lg:max-w-md">
+                  Bali ialah salah satu pulau yang berada di wilayah Negara
+                  Indonesia, pulau ini merupakan pulau yang banyak didatangi
+                  para wisatawan lokal maupun lokal karena daya tarik
+                  pariwisatanya yang sangat menggugah selera untuk melihatnya
+                  secara langsung.
+                </p>
+                <div
+                  class="flex items-center md:max-w-xs mt-3 space-x-2 bg-30% bg-opacity-30 rounded-full"
+                >
+                  <div class="bg-30% rounded-full p-1 m-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                      />
+                    </svg>
+                  </div>
+                  <p class="opacity-50">Yuk explore Bali sekarang juga!</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="my-auto mx-auto">
+                <img src="/assets/heroHome.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -114,7 +195,7 @@
     <img
       src="/assets/bannerHome.png"
       alt=""
-      class="absolute inset-y-0 right-0 z-0"
+      class="absolute inset-y-0 right-0 lg:-right-20 xl:-right-0 z-0"
     />
   </body>
 </html>
